@@ -8,7 +8,7 @@
     width: 80%;
     background-color: yellow;
 }
-#main{
+.parent{
     width: 20%;
     background-color: greenyellow;
 }

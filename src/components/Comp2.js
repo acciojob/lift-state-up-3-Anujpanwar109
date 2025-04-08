@@ -6,7 +6,7 @@ const Comp2 = ({option}) => {
   return (
     <div id='child2'>
         <h2>Child Component 2</h2>
-        <button onClick={()=>option("option2")}>option2</button>
+        <button onClick={()=>option("Option 2")}>option2</button>
     </div>
   )
 }

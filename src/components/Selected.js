@@ -8,7 +8,7 @@ const Selected = () => {
         setData(option)
     }
   return (
-    <div id='main'>
+    <div className=".parent">
     <h1>Parent Component</h1>
         <Comp1
             option={handelOption}
