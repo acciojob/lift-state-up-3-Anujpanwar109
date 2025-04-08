@@ -17,7 +17,7 @@ const Selected = () => {
             option={handelOption}
         />
 
-        <p>Selected Option:{data}</p>
+        <p>Selected Option: {data}</p>
     </div>
   )
 }
