@@ -8,7 +8,7 @@ const Selected = () => {
         setData(option)
     }
   return (
-    <div className=".parent">
+    <div className="parent">
     <h1>Parent Component</h1>
         <Comp1
             option={handelOption}
@@ -17,7 +17,7 @@ const Selected = () => {
             option={handelOption}
         />
 
-        <h3>Selected Option:{data}</h3>
+        <p>Selected Option:{data}</p>
     </div>
   )
 }
